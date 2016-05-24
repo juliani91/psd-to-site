@@ -1,0 +1,138 @@
+header{
+	background-image: url('../images/office-res.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	
+}
+
+header .logo{
+	margin-top: 2em;
+}
+
+header .logo img{
+	width: 88px;
+}
+
+header nav{
+	padding: 30px;
+	text-align: right;
+
+}
+
+header nav ul{
+	list-style-type: none;
+	padding: 30px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-right: 1em;
+}
+
+header nav ul li a{
+	color: #ffffff;
+	font-size: 1.2em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover{
+	color: #1a94ea;
+}
+
+header h1{
+	color: #ffffff;
+	font-size: 3.5em;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+header .left-btn{
+	text-align: center;
+}
+
+header .left-btn a{
+	background-color: rgb(255,28,0);
+	border-radius: 5px;
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+	color: #ffffff;
+	font-size:1.2em;
+	padding: 0.4em 0.7em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+header .left-btn a:hover{
+	background-color: rgba(255,28,0,0.8);
+
+} 
+
+header .right-btn{
+	text-align: center;
+}
+
+
+header .right-btn a{
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+	color: #000000;
+	font-size:1.2em;
+	padding: 0.4em 0.7em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+header .right-btn a:hover{
+	background-color: rgba(255,255,255,0.8);
+
+} 
+
+/*MAIN CONTENT*/
+
+section .process{
+	background: #1a94ea;
+	padding-bottom: 5em;
+}
+
+section .process .graphic{
+	text-align: center;
+	margin-top: 5em;
+	color: #ffffff;
+}
+
+section .four-levels{
+	text-align: center;
+}
+
+i.ion-android-time{
+	font-size: 2.5em;
+}
+i.ion-android-person{
+	font-size: 2.5em;
+}
+
+i.ion-android-desktop{
+	font-size: 2.5em;
+}
+
+i.ion-ios-list-outline{
+	font-size: 2.5em;
+}
+
+section .four-levels a{
+	border-radius: 5px;
+	border-bottom: 1px solid #000000;
+	text-decoration: none;
+	color: #ffffff;
+	background: rgba(0,0,0,0.5);
+	padding: 0.5em 0.8em;
+	transition: all 0.3s ease-in-out;
+}
+
+section .four-levels a:hover{
+	background: #ffffff;
+	color: #000000;
+}
