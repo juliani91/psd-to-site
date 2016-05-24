@@ -143,7 +143,7 @@ section .portfolio{
 	margin-top: 5em;
 }
 
-section p:nth-child(3){
+section .portfolio p:nth-child(3){
 	color: red;
 }
 
@@ -176,4 +176,13 @@ section .portfolio img{
 
 section .portfolio .zoom:hover img{
 	transform: scale(1.1);
+}
+
+/*Clients inside portfolio*/
+section .clients{
+	margin: 5em 0;
+}
+
+section .clients img{
+	width: 200px;
 }
