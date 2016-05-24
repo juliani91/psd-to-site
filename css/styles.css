@@ -143,6 +143,10 @@ section .portfolio{
 	margin-top: 5em;
 }
 
+section .portfolio h4{
+	font-size: 1.8em;
+}
+
 section .portfolio p:nth-child(3){
 	color: red;
 }
@@ -185,4 +189,62 @@ section .clients{
 
 section .clients img{
 	width: 200px;
+}
+
+/*BEFORE FOOTER*/
+/*TESTIMONIALS*/
+section .before-footer{
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+	padding: 5em 0;	
+}
+
+section .before-footer h4{
+	font-size: 1.8em;
+}
+
+section .before-footer .testimonial-graphic{
+	float: left;
+	margin-right: 0.8em;
+}
+
+section .before-footer .name{
+	text-align: center;
+	font-weight: bold;
+}
+
+section .before-footer .domain{
+	text-align: center;
+	font-style: italic;
+}
+
+/*LATEST POST*/
+
+section .before-footer .title{
+	font-weight: bold;
+}
+
+section .before-footer .date{
+	color: #c6c6c6;
+	font-style: italic;
+}
+
+section .before-footer .date span{
+	color: #ff0000;
+}
+
+/*LATEST TWEETS*/
+
+section .before-footer .tweet-graphic{
+	display: flex;
+	margin-top: 0.5em;
+}
+
+section .before-footer .tweet-title{
+	text-align: center;
+}
+
+section .before-footer .tweet-title span{
+	color: red;
+	font-style: italic;
 }
