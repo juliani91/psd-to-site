@@ -136,3 +136,44 @@ section .four-levels a:hover{
 	background: #ffffff;
 	color: #000000;
 }
+
+/* PORTFOLIO */
+
+section .portfolio{
+	margin-top: 5em;
+}
+
+section p:nth-child(3){
+	color: red;
+}
+
+section .portfolio .name{
+	text-align: center;
+	font-weight: bold;
+}
+
+section .portfolio .platform{
+	text-align: center;
+	font-weight: 300;
+	color: #656565;
+}
+
+section .portfolio .zoom{
+
+	position: relative;
+	overflow: hidden;
+	transform: scale(1);
+	transition: all 0.3s ease-in-out;
+}
+
+section .portfolio img{
+	box-shadow: 0px 0px 5px;
+	width: 200px;
+	height: 150px;
+		transform: scale(1);
+	transition: all 0.3s ease-in-out;
+}
+
+section .portfolio .zoom:hover img{
+	transform: scale(1.1);
+}
