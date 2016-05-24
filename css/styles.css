@@ -194,6 +194,7 @@ section .clients img{
 /*BEFORE FOOTER*/
 /*TESTIMONIALS*/
 section .before-footer{
+	background: #72a0e5; 
 	border-top: 1px solid #c6c6c6;
 	border-bottom: 1px solid #c6c6c6;
 	padding: 5em 0;	
@@ -247,4 +248,62 @@ section .before-footer .tweet-title{
 section .before-footer .tweet-title span{
 	color: red;
 	font-style: italic;
+}
+
+/*FOOTER*/
+
+footer{
+	background: #4a6b9b;
+}
+
+footer .footer-section{
+	padding-top: 5em;
+}
+
+footer .footer-nav nav ul{
+	list-style-type: none;
+	text-align: center
+}
+
+footer .footer-nav nav ul li{
+	display: inline-block;
+	margin-right: 1em;
+}
+
+footer .footer-nav nav ul li a{
+	color: #ffffff;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+footer .footer-nav nav ul li a:hover{
+	color: #1a94ea;
+}
+
+footer .social-links .ion-social-twitter-outline{
+	font-size: 2.5em;
+	color: #ffffff;
+}
+
+footer .social-links .ion-social-facebook-outline{
+	font-size: 2.5em;
+	color: #ffffff;
+}
+
+footer .social-links{
+	text-align: center;
+}
+
+footer .social-links a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #000055;
+}
+
+footer .copyright{
+	text-align: center;
+	font-size: 1em;
+	color: #ffffff;
 }
