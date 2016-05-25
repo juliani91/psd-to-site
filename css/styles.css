@@ -194,7 +194,7 @@ section .clients img{
 /*BEFORE FOOTER*/
 /*TESTIMONIALS*/
 section .before-footer{
-	background: #72a0e5; 
+	background: #1a94ea; 
 	border-top: 1px solid #c6c6c6;
 	border-bottom: 1px solid #c6c6c6;
 	padding: 5em 0;	
@@ -226,7 +226,7 @@ section .before-footer .title{
 }
 
 section .before-footer .date{
-	color: #c6c6c6;
+	color: #ffffff;
 	font-style: italic;
 }
 
@@ -253,7 +253,7 @@ section .before-footer .tweet-title span{
 /*FOOTER*/
 
 footer{
-	background: #4a6b9b;
+	background: #136093;
 }
 
 footer .footer-section{
