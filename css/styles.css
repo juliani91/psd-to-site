@@ -94,7 +94,11 @@ header .right-btn a:hover{
 
 section .process{
 	background: #1a94ea;
+<<<<<<< HEAD
 	padding-bottom: 6em;
+=======
+	padding-bottom: 5em;
+>>>>>>> e5e2751b0946414eecdc4c759b8f4fd5a812461f
 }
 
 section .process .graphic{
@@ -135,6 +139,7 @@ section .four-levels a{
 section .four-levels a:hover{
 	background: #ffffff;
 	color: #000000;
+<<<<<<< HEAD
 }
 
 /* PORTFOLIO */
@@ -306,4 +311,6 @@ footer .copyright{
 	text-align: center;
 	font-size: 1em;
 	color: #ffffff;
+=======
+>>>>>>> e5e2751b0946414eecdc4c759b8f4fd5a812461f
 }
